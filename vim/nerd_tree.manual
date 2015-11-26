@@ -1,0 +1,106 @@
+" NERD tree (5.0.0) 快速入门~
+" ============================
+" File node mappings 文件查看快捷键~
+" double-click, # 双击
+" <CR>, # 回车键 
+" o: open in prev window # o键：在预览窗口打开该文件
+" go: preview # go：预览文件
+" t: open in new tab # t: 在一个新标签页打开
+" T: open in new tab silently # T：静默模式打开一个新标签
+" middle-click, # 鼠标中键
+" i: open split # i: 水平分屏拆分打开
+" gi: preview split # gi: 水平分屏预览拆分窗口
+" s: open vsplit # s:垂直标签拆分打开：打开文件，光标最终在文件窗口
+" gs: preview vsplit # gs: 垂直标签拆分预览:即预览文件，光标仍保留在nerdtree窗口中
+"
+" ----------------------------
+" Directory node mappings~ 目录快捷键 
+" double-clicik, # 鼠标双击
+" o: open & close node # o:展开或者收起
+" O: recursively open node # O:展开或者收起所有
+" x: close parent of node # x:收起父级目录
+" X: close all child nodes of
+"    current node recursively # 递归关闭所有父级目录
+" middle-click, # 中键，e键 浏览选中的目录
+" e: explore selected dir
+"
+" ----------------------------
+" Bookmark table mappings~ 书签快捷键
+" double-click, # 双击
+" o: open bookmark # 打开书签
+" t: open in new tab # 在标签页中打开书签
+" T: open in new tab silently # T键：静默在新标签页打开
+" D: delete bookmark # D键：删除标签
+"
+" ----------------------------
+" Tree navigation mappings~ # 文件树形导航快捷键
+" P: go to root # P键：定位到根路径
+" p: go to parent # p：定位到父级目录处
+" K: go to first child # K：定位到第一个子文件处
+
+" <C-j>: go to next sibling # ctrl+j 上一个同级文件处
+" <C-k>: go to prev sibling # ctrl+k 下一个同级文件处
+"
+" ----------------------------
+" Filesystem mappings~ 文件系统快捷键
+" C键：把文件树的根目录设置成选中的目录
+" C: change tree root to the 
+"    selected dir
+" u键：跳到上一级目录
+" u键: move tree root up a dir
+" U键: 跳到上一级目录，仍保留当前文件树打开状态
+" U: move tree root up a dir
+"    but leave old root open
+" r键：刷新光标所在目录
+" r: refresh cursor dir
+" R键：刷新当前目录的根目录
+" R: refresh current root
+" m键：显示菜单
+" m: Show menu
+" cd键：把当前目录设置成文件树的根目录
+" cd:change the CWD to the
+"    selected dir
+" CD键：把当前文件的所属的目录设置成当前文件树的根目录
+" CD:change tree root to CWD
+"
+" ----------------------------
+" Tree filtering mappings~ 文件树筛选快捷键
+" I键：隐藏文件(关闭)
+" I: hidden files (off)
+" f键：文件过滤(开启)
+" f: file filters (on)
+" F键：文件(开启)
+" F: files (on)
+" B键:书签(关闭/开启)
+" B: bookmarks (off)
+"
+" ----------------------------
+" Custom mappings~
+"
+" ----------------------------
+" 其他快捷键
+" Other mappings~ 
+" q键：关闭NERDTree窗口
+" q: Close the NERDTree window
+" A键：缩放(最大化/最小化)
+" A: Zoom (maximize-minimize)
+"    the NERDTree window
+" ?：显示或者隐藏帮助
+" ?: toggle help
+"
+" ----------------------------
+" 书签命令
+" Bookmark commands~ 
+" 
+" :Bookmark [<name>]
+" 
+" :BookmarkToRoot <name>
+" 
+" :RevealBookmark <name>
+" 
+" :OpenBookmark <name>
+" 
+" :ClearBookmarks [<names>]
+" 
+" :ClearAllBookmarks
+
