@@ -1,0 +1,55 @@
+set nocompatible " set compatible
+filetype off " filetype off - must
+set nu " show line number
+syntax on " syntax hightlight
+set cursorline " highlight current line
+set hlsearch " hightlight searched pattern
+set ruler " show rulers on status bar
+set mouse=a " Allows you to click around the text editor with your mouse to move the cursor
+set showmatch "Highlights matching brackets in programming languages
+set autoindent "If you're indented, new lines will also be indented
+set smartindent "Automatically indents lines after opening a bracket in programming languages
+set backspace=2 " This makes the backspace key function like it does in other programs
+set tabstop=4 " How much space Vim gives to a tab
+set smarttab " Imporves tabbing
+set wildmenu " 
+
+
+
+
+
+" use vundle package manage tools
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" config github package path
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/nerdtree'
+Bundle 'shawncplus/phpcomplete.vim'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'mattn/emmet-vim'
+Bundle 'jiangmiao/auto-pairs'
+
+
+" color schemes
+Bundle 'flazz/vim-colorschemes'
+
+" filetype plugin indent on " might have
+
+" auto nerdtree
+" autocmd vimenter * NERDTree
+let NERDTreeWinPos="left"
+set splitright " split new window at right side
+set splitbelow " split new window at below
+
+"map <C-w> <ESC><C-w-w>
+map <C-t> <ESC>:tabn<CR>
+
+" common used shortcuts
+"map <C-q> <ESC>:qa<CR>
+
+nmap <C-s> :w<CR>
+imap <C-s> <ESC>:w<CR>a
+
+
+
